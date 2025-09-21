@@ -1,12 +1,331 @@
 {
   "Version": 1,
-  "Hash": "N7qxhc9M+1QNtfzJGqsi8ULkGFultmEzonbEq/EKgV4=",
+  "Hash": "SDcebVpI/op2215zdO+DHpHcGDI4p7loGuTWo8sm6OM=",
   "Source": "backend",
   "BasePath": "_content/backend",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": [],
-  "Endpoints": []
+  "DiscoveryPatterns": [
+    {
+      "Name": "backend\\wwwroot",
+      "Source": "backend",
+      "ContentRoot": "C:\\Users\\edime\\onlineShop\\backend\\wwwroot\\",
+      "BasePath": "_content/backend",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\edime\\onlineShop\\backend\\wwwroot\\uploads\\3fb7faf9-ce5c-4ecd-8629-2ce6caceaf47.jpg",
+      "SourceId": "backend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\edime\\onlineShop\\backend\\wwwroot\\",
+      "BasePath": "_content/backend",
+      "RelativePath": "uploads/3fb7faf9-ce5c-4ecd-8629-2ce6caceaf47#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "1qwd6i4jg2",
+      "Integrity": "6TTmQ6uF6TNSGXxpXRlq8s1P7ADRe4TBjbmZBxdCUsU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\3fb7faf9-ce5c-4ecd-8629-2ce6caceaf47.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\edime\\onlineShop\\backend\\wwwroot\\uploads\\Clothes hanger with lettering neon sign_  _ Free Vector (1).jpg",
+      "SourceId": "backend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\edime\\onlineShop\\backend\\wwwroot\\",
+      "BasePath": "_content/backend",
+      "RelativePath": "uploads/Clothes hanger with lettering neon sign_  _ Free Vector (1)#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "xkurzpd5oi",
+      "Integrity": "keoZMDparH80hvl9Paqqh7n2ANVDwlKSrFXApHPQ3Jg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\Clothes hanger with lettering neon sign_  _ Free Vector (1).jpg"
+    },
+    {
+      "Identity": "C:\\Users\\edime\\onlineShop\\backend\\wwwroot\\uploads\\Johannes 14,6_ Jesus sagte zu ihm_ »Ich bin der….jpg",
+      "SourceId": "backend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\edime\\onlineShop\\backend\\wwwroot\\",
+      "BasePath": "_content/backend",
+      "RelativePath": "uploads/Johannes 14,6_ Jesus sagte zu ihm_ »Ich bin der…#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "i2qla6spce",
+      "Integrity": "xmYiFG7C3HyRNncvGV116KiadIJbBI0Rve4DoMr4ksA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\Johannes 14,6_ Jesus sagte zu ihm_ »Ich bin der….jpg"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "uploads/3fb7faf9-ce5c-4ecd-8629-2ce6caceaf47.1qwd6i4jg2.jpg",
+      "AssetFile": "C:\\Users\\edime\\onlineShop\\backend\\wwwroot\\uploads\\3fb7faf9-ce5c-4ecd-8629-2ce6caceaf47.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "78172"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6TTmQ6uF6TNSGXxpXRlq8s1P7ADRe4TBjbmZBxdCUsU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 21 Sep 2025 15:25:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1qwd6i4jg2"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/3fb7faf9-ce5c-4ecd-8629-2ce6caceaf47.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-6TTmQ6uF6TNSGXxpXRlq8s1P7ADRe4TBjbmZBxdCUsU="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/3fb7faf9-ce5c-4ecd-8629-2ce6caceaf47.jpg",
+      "AssetFile": "C:\\Users\\edime\\onlineShop\\backend\\wwwroot\\uploads\\3fb7faf9-ce5c-4ecd-8629-2ce6caceaf47.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "78172"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6TTmQ6uF6TNSGXxpXRlq8s1P7ADRe4TBjbmZBxdCUsU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 21 Sep 2025 15:25:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-6TTmQ6uF6TNSGXxpXRlq8s1P7ADRe4TBjbmZBxdCUsU="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/Clothes hanger with lettering neon sign_  _ Free Vector (1).jpg",
+      "AssetFile": "C:\\Users\\edime\\onlineShop\\backend\\wwwroot\\uploads\\Clothes hanger with lettering neon sign_  _ Free Vector (1).jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2456281"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"keoZMDparH80hvl9Paqqh7n2ANVDwlKSrFXApHPQ3Jg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 21 Sep 2025 15:00:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-keoZMDparH80hvl9Paqqh7n2ANVDwlKSrFXApHPQ3Jg="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/Clothes hanger with lettering neon sign_  _ Free Vector (1).xkurzpd5oi.jpg",
+      "AssetFile": "C:\\Users\\edime\\onlineShop\\backend\\wwwroot\\uploads\\Clothes hanger with lettering neon sign_  _ Free Vector (1).jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2456281"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"keoZMDparH80hvl9Paqqh7n2ANVDwlKSrFXApHPQ3Jg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 21 Sep 2025 15:00:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xkurzpd5oi"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/Clothes hanger with lettering neon sign_  _ Free Vector (1).jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-keoZMDparH80hvl9Paqqh7n2ANVDwlKSrFXApHPQ3Jg="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/Johannes 14,6_ Jesus sagte zu ihm_ »Ich bin der….i2qla6spce.jpg",
+      "AssetFile": "C:\\Users\\edime\\onlineShop\\backend\\wwwroot\\uploads\\Johannes 14,6_ Jesus sagte zu ihm_ »Ich bin der….jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "25110"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xmYiFG7C3HyRNncvGV116KiadIJbBI0Rve4DoMr4ksA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 21 Sep 2025 15:24:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "i2qla6spce"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/Johannes 14,6_ Jesus sagte zu ihm_ »Ich bin der….jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-xmYiFG7C3HyRNncvGV116KiadIJbBI0Rve4DoMr4ksA="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/Johannes 14,6_ Jesus sagte zu ihm_ »Ich bin der….jpg",
+      "AssetFile": "C:\\Users\\edime\\onlineShop\\backend\\wwwroot\\uploads\\Johannes 14,6_ Jesus sagte zu ihm_ »Ich bin der….jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "25110"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xmYiFG7C3HyRNncvGV116KiadIJbBI0Rve4DoMr4ksA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 21 Sep 2025 15:24:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-xmYiFG7C3HyRNncvGV116KiadIJbBI0Rve4DoMr4ksA="
+        }
+      ]
+    }
+  ]
 }

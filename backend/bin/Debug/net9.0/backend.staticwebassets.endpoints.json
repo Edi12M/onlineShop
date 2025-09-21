@@ -1,5 +1,252 @@
 {
   "Version": 1,
   "ManifestType": "Build",
-  "Endpoints": []
+  "Endpoints": [
+    {
+      "Route": "uploads/3fb7faf9-ce5c-4ecd-8629-2ce6caceaf47.1qwd6i4jg2.jpg",
+      "AssetFile": "uploads/3fb7faf9-ce5c-4ecd-8629-2ce6caceaf47.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "78172"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6TTmQ6uF6TNSGXxpXRlq8s1P7ADRe4TBjbmZBxdCUsU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 21 Sep 2025 15:25:22 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1qwd6i4jg2"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-6TTmQ6uF6TNSGXxpXRlq8s1P7ADRe4TBjbmZBxdCUsU="
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/3fb7faf9-ce5c-4ecd-8629-2ce6caceaf47.jpg"
+        }
+      ]
+    },
+    {
+      "Route": "uploads/3fb7faf9-ce5c-4ecd-8629-2ce6caceaf47.jpg",
+      "AssetFile": "uploads/3fb7faf9-ce5c-4ecd-8629-2ce6caceaf47.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "78172"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6TTmQ6uF6TNSGXxpXRlq8s1P7ADRe4TBjbmZBxdCUsU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 21 Sep 2025 15:25:22 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-6TTmQ6uF6TNSGXxpXRlq8s1P7ADRe4TBjbmZBxdCUsU="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/Clothes hanger with lettering neon sign_  _ Free Vector (1).jpg",
+      "AssetFile": "uploads/Clothes hanger with lettering neon sign_  _ Free Vector (1).jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2456281"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"keoZMDparH80hvl9Paqqh7n2ANVDwlKSrFXApHPQ3Jg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 21 Sep 2025 15:00:13 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-keoZMDparH80hvl9Paqqh7n2ANVDwlKSrFXApHPQ3Jg="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/Clothes hanger with lettering neon sign_  _ Free Vector (1).xkurzpd5oi.jpg",
+      "AssetFile": "uploads/Clothes hanger with lettering neon sign_  _ Free Vector (1).jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2456281"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"keoZMDparH80hvl9Paqqh7n2ANVDwlKSrFXApHPQ3Jg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 21 Sep 2025 15:00:13 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xkurzpd5oi"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-keoZMDparH80hvl9Paqqh7n2ANVDwlKSrFXApHPQ3Jg="
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/Clothes hanger with lettering neon sign_  _ Free Vector (1).jpg"
+        }
+      ]
+    },
+    {
+      "Route": "uploads/Johannes 14,6_ Jesus sagte zu ihm_ »Ich bin der….i2qla6spce.jpg",
+      "AssetFile": "uploads/Johannes 14,6_ Jesus sagte zu ihm_ »Ich bin der….jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "25110"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xmYiFG7C3HyRNncvGV116KiadIJbBI0Rve4DoMr4ksA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 21 Sep 2025 15:24:15 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "i2qla6spce"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-xmYiFG7C3HyRNncvGV116KiadIJbBI0Rve4DoMr4ksA="
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/Johannes 14,6_ Jesus sagte zu ihm_ »Ich bin der….jpg"
+        }
+      ]
+    },
+    {
+      "Route": "uploads/Johannes 14,6_ Jesus sagte zu ihm_ »Ich bin der….jpg",
+      "AssetFile": "uploads/Johannes 14,6_ Jesus sagte zu ihm_ »Ich bin der….jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "25110"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xmYiFG7C3HyRNncvGV116KiadIJbBI0Rve4DoMr4ksA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 21 Sep 2025 15:24:15 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-xmYiFG7C3HyRNncvGV116KiadIJbBI0Rve4DoMr4ksA="
+        }
+      ]
+    }
+  ]
 }
