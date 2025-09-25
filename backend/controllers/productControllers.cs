@@ -18,7 +18,7 @@ namespace MyApi.Controllers
 
         // POST: api/products/upload
         [HttpPost("upload")]
-        // [Authorize(Roles = "Admin")] // Enable when auth is set
+        //   [Authorize(Roles = "Admin")] 
         public async Task<IActionResult> UploadProduct(
             [FromForm] IFormFile image,
             [FromForm] string name,

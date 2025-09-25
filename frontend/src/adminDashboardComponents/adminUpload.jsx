@@ -2,7 +2,13 @@ import { useState } from "react";
 import axios from "axios";
 
 function AdminUpload({ onUploadSuccess }) {
-  const [form, setForm] = useState({ name: "", price: "", description: "", category: "", stock: "" });
+  const [form, setForm] = useState({
+    name: "",
+    price: "",
+    description: "",
+    category: "Unisex", 
+    stock: "",
+  });
   const [file, setFile] = useState(null);
 
   const handleSubmit = async (e) => {
@@ -22,13 +28,15 @@ function AdminUpload({ onUploadSuccess }) {
     formData.append("image", file);
 
     try {
-      await axios.post("http://localhost:5145/api/products/upload", formData, {
-        headers: { "Content-Type": "multipart/form-data" },
-      });
-      alert("Product uploaded!");
-      setForm({ name: "", price: "", description: "", category: "", stock: "" });
+      const res = await axios.post(
+        "http://localhost:5145/api/products/upload",
+        formData,
+        { headers: { "Content-Type": "multipart/form-data" } }
+      );
+
+      onUploadSuccess(res.data); // send new product to dashboard
+      setForm({ name: "", price: "", description: "", category: "Unisex", stock: "" });
       setFile(null);
-      onUploadSuccess(); // refresh product list
     } catch (err) {
       console.error("Upload failed:", err);
       alert("Failed to upload product");
@@ -37,13 +45,53 @@ function AdminUpload({ onUploadSuccess }) {
 
   return (
     <form onSubmit={handleSubmit} className="upload-form">
-      <input type="text" placeholder="Product name" onChange={e => setForm({ ...form, name: e.target.value })} />
-      <input type="number" placeholder="Price" onChange={e => setForm({ ...form, price: e.target.value })} />
-      <input type="text" placeholder="Description" onChange={e => setForm({ ...form, description: e.target.value })} />
-      <input type="text" placeholder="Category" onChange={e => setForm({ ...form, category: e.target.value })} />
-      <input type="number" placeholder="Stock" onChange={e => setForm({ ...form, stock: e.target.value })} />
-      <input type="file" accept="image/*" onChange={e => setFile(e.target.files[0])} />
-      <button type="submit">Upload</button>
+      <input
+        className="text-fields"
+        type="text"
+        placeholder="Product name"
+        value={form.name}
+        onChange={(e) => setForm({ ...form, name: e.target.value })}
+      />
+      <input
+        className="text-fields"
+        type="number"
+        placeholder="Price"
+        value={form.price}
+        onChange={(e) => setForm({ ...form, price: e.target.value })}
+      />
+      <input
+        className="text-fields"
+        type="text"
+        placeholder="Description"
+        value={form.description}
+        onChange={(e) => setForm({ ...form, description: e.target.value })}
+      />
+      
+      <select
+        className="text-fields"
+        value={form.category}
+        onChange={(e) => setForm({ ...form, category: e.target.value })}
+      >
+        <option value="Men">Men</option>
+        <option value="Women">Women</option>
+        <option value="Kids">Kids</option>
+        <option value="Accessories">Accessories</option>
+        <option value="Unisex">Unisex</option>
+      </select>
+      <input
+        className="text-fields"
+        type="number"
+        placeholder="Stock"
+        value={form.stock}
+        onChange={(e) => setForm({ ...form, stock: e.target.value })}
+      />
+      <input
+        className="text-fields"
+        type="file"
+        accept="image/*"
+        onChange={(e) => setFile(e.target.files[0])}
+      />
+      <button className="submitButton" type="submit">Upload</button>
     </form>
   );
 }

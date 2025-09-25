@@ -13,3 +13,10 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+
+
+.admin-dashboard-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh; /* full viewport */
+}

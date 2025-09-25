@@ -22,6 +22,8 @@ function App() {
 
             {/* Product detail page */}
             <Route path="/product/:id" element={<ProductDetail />} />
+            {/* Add product page */}
+            <Route path="/add-product" element={<AdminDashboard />} />
           </Routes>
         </div>
       </Router>
