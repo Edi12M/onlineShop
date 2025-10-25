@@ -89,5 +89,47 @@ namespace MyApi.Controllers
 
             return Ok(new { message = "Product deleted successfully." });
         }
+
+        // PUT: api/products/{id}
+// [Authorize(Roles = "Admin")]
+[HttpPut("{id}")]
+public async Task<IActionResult> UpdateProduct(
+    int id,
+    [FromForm] IFormFile? image,
+    [FromForm] string name,
+    [FromForm] decimal price,
+    [FromForm] string description,
+    [FromForm] string category,
+    [FromForm] int stock)
+{
+    var product = _db.Products.FirstOrDefault(p => p.ProductId == id);
+    if (product == null)
+        return NotFound();
+
+    product.Name = name;
+    product.Price = price;
+    product.Description = description;
+    product.Category = category;
+    product.Stock = stock;
+
+    if (image != null && image.Length > 0)
+    {
+        var uploadPath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/uploads");
+        if (!Directory.Exists(uploadPath))
+            Directory.CreateDirectory(uploadPath);
+
+        var filePath = Path.Combine(uploadPath, image.FileName);
+        using (var stream = new FileStream(filePath, FileMode.Create))
+        {
+            await image.CopyToAsync(stream);
+        }
+
+        product.ImageUrl = "/uploads/" + image.FileName;
+    }
+
+    await _db.SaveChangesAsync();
+    return Ok(product);
+}
+
     }
 }

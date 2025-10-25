@@ -1,13 +1,40 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import Buttons from "../logInComponents/Buttons";
+import { useNavigate } from "react-router-dom";
+import { useState, useEffect } from "react";
 
 function UserHeader() {
+  const navigate = useNavigate();
+  const [cartCount, setCartCount] = useState(0);
+  const [searchQuery, setSearchQuery] = useState("");
+
+  useEffect(() => {
+    setCartCount(2); // temporary cart count
+  }, []);
+
+  const navItems = [
+    { label: "Home", path: "/user-dashboard" },
+    { label: "Men", path: "/shop?category=Men" },
+    { label: "Women", path: "/shop?category=Women" },
+    { label: "Kids", path: "/shop?category=Kids" },
+    { label: "About", path: "/about" },
+  ];
+
+  const handleSearch = () => {
+    const params = new URLSearchParams();
+    if (searchQuery) params.set("search", searchQuery);
+    navigate(`/shop?${params.toString()}`);
+  };
+
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light">
+    <nav className="navbar navbar-expand-lg navbar-light bg-light shadow-sm">
       <div className="container px-4 px-lg-5">
-        <Link className="navbar-brand" to="/user-dashboard">
+        <a
+          className="navbar-brand fw-bold fs-4"
+          onClick={() => navigate("/user-dashboard")}
+        >
           MyShop
-        </Link>
+        </a>
+
         <button
           className="navbar-toggler"
           type="button"
@@ -19,39 +46,48 @@ function UserHeader() {
         >
           <span className="navbar-toggler-icon"></span>
         </button>
-        <div className="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul className="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4">
-            <li className="nav-item">
-              <Link className="nav-link active" to="/user-dashboard">
-                Home
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link className="nav-link" to="/user-dashboard">
-                Men
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link className="nav-link" to="/user-dashboard">
-                Women
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link className="nav-link" to="/user-dashboard">
-                Kids
-              </Link>
-            </li>
 
-          </ul>
-          <form className="d-flex">
-            <button className="btn btn-outline-dark" type="button">
+        <div className="collapse navbar-collapse" id="navbarSupportedContent">
+          <div className="ms-auto d-flex align-items-center gap-2">
+            {navItems.map((item) => (
+              <Buttons
+                variant="light"
+                key={item.label}
+                className="nav-btn-custom"
+                onSelect={() => navigate(item.path)}
+              >
+                {item.label}
+              </Buttons>
+            ))}
+
+            {/* Search input */}
+            <input
+              type="text"
+              className="form-control ms-3"
+              placeholder="Search products..."
+              style={{ maxWidth: "200px" }}
+              value={searchQuery}
+              onChange={(e) => setSearchQuery(e.target.value)}
+              onKeyDown={(e) => {
+                if (e.key === "Enter") {
+                  e.preventDefault();
+                  handleSearch();
+                }
+              }}
+            />
+
+            <Buttons
+              className="cart-btn-custom ms-3"
+              variant="outline-dark"
+              onSelect={() => navigate("/cart")}
+            >
               <i className="bi-cart-fill me-1"></i>
               Cart
               <span className="badge bg-dark text-white ms-1 rounded-pill">
-                0
+                {cartCount}
               </span>
-            </button>
-          </form>
+            </Buttons>
+          </div>
         </div>
       </div>
     </nav>

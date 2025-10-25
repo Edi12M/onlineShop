@@ -6,7 +6,7 @@ function AdminUpload({ onUploadSuccess }) {
     name: "",
     price: "",
     description: "",
-    category: "Unisex", 
+    category: "Unisex",
     stock: "",
   });
   const [file, setFile] = useState(null);
@@ -34,7 +34,8 @@ function AdminUpload({ onUploadSuccess }) {
         { headers: { "Content-Type": "multipart/form-data" } }
       );
 
-      onUploadSuccess(res.data); // send new product to dashboard
+      onUploadSuccess(res.data); // send new product back to dashboard
+      // reset form
       setForm({ name: "", price: "", description: "", category: "Unisex", stock: "" });
       setFile(null);
     } catch (err) {
@@ -44,33 +45,32 @@ function AdminUpload({ onUploadSuccess }) {
   };
 
   return (
-    <form onSubmit={handleSubmit} className="upload-form">
+    <form onSubmit={handleSubmit} className="upload-form d-flex flex-column gap-2">
       <input
-        className="text-fields"
         type="text"
         placeholder="Product name"
         value={form.name}
         onChange={(e) => setForm({ ...form, name: e.target.value })}
+        className="form-control"
       />
       <input
-        className="text-fields"
         type="number"
         placeholder="Price"
         value={form.price}
         onChange={(e) => setForm({ ...form, price: e.target.value })}
+        className="form-control"
       />
       <input
-        className="text-fields"
         type="text"
         placeholder="Description"
         value={form.description}
         onChange={(e) => setForm({ ...form, description: e.target.value })}
+        className="form-control"
       />
-      
       <select
-        className="text-fields"
         value={form.category}
         onChange={(e) => setForm({ ...form, category: e.target.value })}
+        className="form-control"
       >
         <option value="Men">Men</option>
         <option value="Women">Women</option>
@@ -79,19 +79,21 @@ function AdminUpload({ onUploadSuccess }) {
         <option value="Unisex">Unisex</option>
       </select>
       <input
-        className="text-fields"
         type="number"
         placeholder="Stock"
         value={form.stock}
         onChange={(e) => setForm({ ...form, stock: e.target.value })}
+        className="form-control"
       />
       <input
-        className="text-fields"
         type="file"
         accept="image/*"
         onChange={(e) => setFile(e.target.files[0])}
+        className="form-control"
       />
-      <button className="submitButton" type="submit">Upload</button>
+      <button type="submit" className="btn btn-dark mt-2">
+        Upload Product
+      </button>
     </form>
   );
 }

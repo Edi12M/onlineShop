@@ -1,6 +1,12 @@
 @keyframes fadeIn {
-  from { opacity: 0; transform: translateY(-10px); }
-  to { opacity: 1; transform: translateY(0); }
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 .logo img {
@@ -11,4 +17,35 @@
 .navbar-brand .logo {
   display: flex;
   align-items: center;
+}
+/* Navbar Buttons */
+.nav-btn-custom {
+  font-family: 'Arial', sans-serif;
+  font-weight: 500;
+  color: #6c757d; /* gray */
+  background: transparent;
+  border: none;
+  transition: all 0.3s ease;
+}
+
+.nav-btn-custom:hover {
+  color: #343a40; /* darker gray */
+  font-weight: 600;
+}
+
+.nav-btn-custom.active {
+  font-weight: 700;
+  color: #343a40; /* bold for active page */
+}
+
+/* Cart button */
+.cart-btn-custom {
+  font-weight: 600;
+  border: none;
+  background: transparent;
+  transition: all 0.3s ease;
+}
+
+.cart-btn-custom:hover {
+  color: #ffc107; /* yellow highlight */
 }

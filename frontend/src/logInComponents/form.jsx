@@ -90,10 +90,10 @@ function Form() {
         </div>
 
         <div className="d-flex justify-content-between">
-          <Buttons type="button" variant="primary" onSelect={handleLogin}>
+          <Buttons type="button" variant="success" onSelect={handleLogin}>
             Log In
           </Buttons>
-          <Buttons type="button" variant="outline-dark" onSelect={handleSignup}>
+          <Buttons type="button" variant="danger" onSelect={handleSignup}>
             Sign Up
           </Buttons>
         </div>
