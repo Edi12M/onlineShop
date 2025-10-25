@@ -1,16 +1,60 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\edime\\onlineShop\\backend\\wwwroot\\uploads\\3fb7faf9-ce5c-4ecd-8629-2ce6caceaf47.jpg",
+      "Id": "C:\\Users\\edime\\OneDrive\\Desktop\\onlineShop\\backend\\wwwroot\\uploads\\084e2ea0-37ca-462a-b5ee-3e92d3ce785c.jpg",
+      "PackagePath": "staticwebassets\\uploads\\084e2ea0-37ca-462a-b5ee-3e92d3ce785c.jpg"
+    },
+    {
+      "Id": "C:\\Users\\edime\\OneDrive\\Desktop\\onlineShop\\backend\\wwwroot\\uploads\\3fb7faf9-ce5c-4ecd-8629-2ce6caceaf47.jpg",
       "PackagePath": "staticwebassets\\uploads\\3fb7faf9-ce5c-4ecd-8629-2ce6caceaf47.jpg"
     },
     {
-      "Id": "C:\\Users\\edime\\onlineShop\\backend\\wwwroot\\uploads\\Clothes hanger with lettering neon sign_  _ Free Vector (1).jpg",
+      "Id": "C:\\Users\\edime\\OneDrive\\Desktop\\onlineShop\\backend\\wwwroot\\uploads\\5a274399-b2d9-41a7-b949-51bb2ca3964b-removebg-preview.png",
+      "PackagePath": "staticwebassets\\uploads\\5a274399-b2d9-41a7-b949-51bb2ca3964b-removebg-preview.png"
+    },
+    {
+      "Id": "C:\\Users\\edime\\OneDrive\\Desktop\\onlineShop\\backend\\wwwroot\\uploads\\5a274399-b2d9-41a7-b949-51bb2ca3964b.jpg",
+      "PackagePath": "staticwebassets\\uploads\\5a274399-b2d9-41a7-b949-51bb2ca3964b.jpg"
+    },
+    {
+      "Id": "C:\\Users\\edime\\OneDrive\\Desktop\\onlineShop\\backend\\wwwroot\\uploads\\6eb002ba-9e86-4d0d-ae93-a1a8e16c0180-removebg-preview.png",
+      "PackagePath": "staticwebassets\\uploads\\6eb002ba-9e86-4d0d-ae93-a1a8e16c0180-removebg-preview.png"
+    },
+    {
+      "Id": "C:\\Users\\edime\\OneDrive\\Desktop\\onlineShop\\backend\\wwwroot\\uploads\\Clothes hanger with lettering neon sign_  _ Free Vector (1).jpg",
       "PackagePath": "staticwebassets\\uploads\\Clothes hanger with lettering neon sign_  _ Free Vector (1).jpg"
     },
     {
-      "Id": "C:\\Users\\edime\\onlineShop\\backend\\wwwroot\\uploads\\Johannes 14,6_ Jesus sagte zu ihm_ »Ich bin der….jpg",
+      "Id": "C:\\Users\\edime\\OneDrive\\Desktop\\onlineShop\\backend\\wwwroot\\uploads\\Dress.jpg",
+      "PackagePath": "staticwebassets\\uploads\\Dress.jpg"
+    },
+    {
+      "Id": "C:\\Users\\edime\\OneDrive\\Desktop\\onlineShop\\backend\\wwwroot\\uploads\\HoodieUnisex.jpg",
+      "PackagePath": "staticwebassets\\uploads\\HoodieUnisex.jpg"
+    },
+    {
+      "Id": "C:\\Users\\edime\\OneDrive\\Desktop\\onlineShop\\backend\\wwwroot\\uploads\\JeanesMen.jpg",
+      "PackagePath": "staticwebassets\\uploads\\JeanesMen.jpg"
+    },
+    {
+      "Id": "C:\\Users\\edime\\OneDrive\\Desktop\\onlineShop\\backend\\wwwroot\\uploads\\Johannes 14,6_ Jesus sagte zu ihm_ »Ich bin der….jpg",
       "PackagePath": "staticwebassets\\uploads\\Johannes 14,6_ Jesus sagte zu ihm_ »Ich bin der….jpg"
+    },
+    {
+      "Id": "C:\\Users\\edime\\OneDrive\\Desktop\\onlineShop\\backend\\wwwroot\\uploads\\KnittedTopKids.jpg",
+      "PackagePath": "staticwebassets\\uploads\\KnittedTopKids.jpg"
+    },
+    {
+      "Id": "C:\\Users\\edime\\OneDrive\\Desktop\\onlineShop\\backend\\wwwroot\\uploads\\jumperMen.jpg",
+      "PackagePath": "staticwebassets\\uploads\\jumperMen.jpg"
+    },
+    {
+      "Id": "C:\\Users\\edime\\OneDrive\\Desktop\\onlineShop\\backend\\wwwroot\\uploads\\jumperWomen.jpg",
+      "PackagePath": "staticwebassets\\uploads\\jumperWomen.jpg"
+    },
+    {
+      "Id": "C:\\Users\\edime\\OneDrive\\Desktop\\onlineShop\\backend\\wwwroot\\uploads\\knittedTopMen.jpg",
+      "PackagePath": "staticwebassets\\uploads\\knittedTopMen.jpg"
     },
     {
       "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.backend.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",

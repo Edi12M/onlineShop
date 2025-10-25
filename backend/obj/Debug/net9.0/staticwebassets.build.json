@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "SDcebVpI/op2215zdO+DHpHcGDI4p7loGuTWo8sm6OM=",
+  "Hash": "rdQDSbrY//lxhUPg/JGyG9F64gQrQjScQTd63xDVLZU=",
   "Source": "backend",
   "BasePath": "_content/backend",
   "Mode": "Default",
@@ -10,17 +10,38 @@
     {
       "Name": "backend\\wwwroot",
       "Source": "backend",
-      "ContentRoot": "C:\\Users\\edime\\onlineShop\\backend\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\edime\\OneDrive\\Desktop\\onlineShop\\backend\\wwwroot\\",
       "BasePath": "_content/backend",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\edime\\onlineShop\\backend\\wwwroot\\uploads\\3fb7faf9-ce5c-4ecd-8629-2ce6caceaf47.jpg",
+      "Identity": "C:\\Users\\edime\\OneDrive\\Desktop\\onlineShop\\backend\\wwwroot\\uploads\\084e2ea0-37ca-462a-b5ee-3e92d3ce785c.jpg",
       "SourceId": "backend",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\edime\\onlineShop\\backend\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\edime\\OneDrive\\Desktop\\onlineShop\\backend\\wwwroot\\",
+      "BasePath": "_content/backend",
+      "RelativePath": "uploads/084e2ea0-37ca-462a-b5ee-3e92d3ce785c#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "11py790fv3",
+      "Integrity": "y2FDdU5Qq0Ho+d25fkaLAud1CDnjkYpL7x9f6PFPdHw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\084e2ea0-37ca-462a-b5ee-3e92d3ce785c.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\edime\\OneDrive\\Desktop\\onlineShop\\backend\\wwwroot\\uploads\\3fb7faf9-ce5c-4ecd-8629-2ce6caceaf47.jpg",
+      "SourceId": "backend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\edime\\OneDrive\\Desktop\\onlineShop\\backend\\wwwroot\\",
       "BasePath": "_content/backend",
       "RelativePath": "uploads/3fb7faf9-ce5c-4ecd-8629-2ce6caceaf47#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -38,10 +59,73 @@
       "OriginalItemSpec": "wwwroot\\uploads\\3fb7faf9-ce5c-4ecd-8629-2ce6caceaf47.jpg"
     },
     {
-      "Identity": "C:\\Users\\edime\\onlineShop\\backend\\wwwroot\\uploads\\Clothes hanger with lettering neon sign_  _ Free Vector (1).jpg",
+      "Identity": "C:\\Users\\edime\\OneDrive\\Desktop\\onlineShop\\backend\\wwwroot\\uploads\\5a274399-b2d9-41a7-b949-51bb2ca3964b-removebg-preview.png",
       "SourceId": "backend",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\edime\\onlineShop\\backend\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\edime\\OneDrive\\Desktop\\onlineShop\\backend\\wwwroot\\",
+      "BasePath": "_content/backend",
+      "RelativePath": "uploads/5a274399-b2d9-41a7-b949-51bb2ca3964b-removebg-preview#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "fzz3ubjmfi",
+      "Integrity": "FY04J/lEzfKxalzxs3TWwIKYR/c2lrM4u+Y/u9espCU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\5a274399-b2d9-41a7-b949-51bb2ca3964b-removebg-preview.png"
+    },
+    {
+      "Identity": "C:\\Users\\edime\\OneDrive\\Desktop\\onlineShop\\backend\\wwwroot\\uploads\\5a274399-b2d9-41a7-b949-51bb2ca3964b.jpg",
+      "SourceId": "backend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\edime\\OneDrive\\Desktop\\onlineShop\\backend\\wwwroot\\",
+      "BasePath": "_content/backend",
+      "RelativePath": "uploads/5a274399-b2d9-41a7-b949-51bb2ca3964b#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "yzsa770hft",
+      "Integrity": "TtSqCnPXkWwNr+oAN/RY7zX0kRqe2yvBfnwwuzgh14M=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\5a274399-b2d9-41a7-b949-51bb2ca3964b.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\edime\\OneDrive\\Desktop\\onlineShop\\backend\\wwwroot\\uploads\\6eb002ba-9e86-4d0d-ae93-a1a8e16c0180-removebg-preview.png",
+      "SourceId": "backend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\edime\\OneDrive\\Desktop\\onlineShop\\backend\\wwwroot\\",
+      "BasePath": "_content/backend",
+      "RelativePath": "uploads/6eb002ba-9e86-4d0d-ae93-a1a8e16c0180-removebg-preview#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "v3sypalbm1",
+      "Integrity": "y/OG1+sft7gWlKUsslLHLnxk/xqM/L8yC6F694e3Vrg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\6eb002ba-9e86-4d0d-ae93-a1a8e16c0180-removebg-preview.png"
+    },
+    {
+      "Identity": "C:\\Users\\edime\\OneDrive\\Desktop\\onlineShop\\backend\\wwwroot\\uploads\\Clothes hanger with lettering neon sign_  _ Free Vector (1).jpg",
+      "SourceId": "backend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\edime\\OneDrive\\Desktop\\onlineShop\\backend\\wwwroot\\",
       "BasePath": "_content/backend",
       "RelativePath": "uploads/Clothes hanger with lettering neon sign_  _ Free Vector (1)#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -59,10 +143,73 @@
       "OriginalItemSpec": "wwwroot\\uploads\\Clothes hanger with lettering neon sign_  _ Free Vector (1).jpg"
     },
     {
-      "Identity": "C:\\Users\\edime\\onlineShop\\backend\\wwwroot\\uploads\\Johannes 14,6_ Jesus sagte zu ihm_ »Ich bin der….jpg",
+      "Identity": "C:\\Users\\edime\\OneDrive\\Desktop\\onlineShop\\backend\\wwwroot\\uploads\\Dress.jpg",
       "SourceId": "backend",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\edime\\onlineShop\\backend\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\edime\\OneDrive\\Desktop\\onlineShop\\backend\\wwwroot\\",
+      "BasePath": "_content/backend",
+      "RelativePath": "uploads/Dress#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "r54cwnf0tb",
+      "Integrity": "8ZMzuhiMV+z1mVW7NXYGMf8BlI6Mpn/HgX6I5faubic=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\Dress.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\edime\\OneDrive\\Desktop\\onlineShop\\backend\\wwwroot\\uploads\\HoodieUnisex.jpg",
+      "SourceId": "backend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\edime\\OneDrive\\Desktop\\onlineShop\\backend\\wwwroot\\",
+      "BasePath": "_content/backend",
+      "RelativePath": "uploads/HoodieUnisex#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "n565vjh8si",
+      "Integrity": "a2keCOLN2Ot8Jyb+3PQqEvL54jq0UKg7NWQiiDg8rAY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\HoodieUnisex.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\edime\\OneDrive\\Desktop\\onlineShop\\backend\\wwwroot\\uploads\\JeanesMen.jpg",
+      "SourceId": "backend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\edime\\OneDrive\\Desktop\\onlineShop\\backend\\wwwroot\\",
+      "BasePath": "_content/backend",
+      "RelativePath": "uploads/JeanesMen#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "v4n59k2kvy",
+      "Integrity": "X52BJ5ptZ7AdO32uwf5PebLXaTP21gtAWAGG7Q50+K0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\JeanesMen.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\edime\\OneDrive\\Desktop\\onlineShop\\backend\\wwwroot\\uploads\\Johannes 14,6_ Jesus sagte zu ihm_ »Ich bin der….jpg",
+      "SourceId": "backend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\edime\\OneDrive\\Desktop\\onlineShop\\backend\\wwwroot\\",
       "BasePath": "_content/backend",
       "RelativePath": "uploads/Johannes 14,6_ Jesus sagte zu ihm_ »Ich bin der…#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -78,12 +225,178 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\uploads\\Johannes 14,6_ Jesus sagte zu ihm_ »Ich bin der….jpg"
+    },
+    {
+      "Identity": "C:\\Users\\edime\\OneDrive\\Desktop\\onlineShop\\backend\\wwwroot\\uploads\\jumperMen.jpg",
+      "SourceId": "backend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\edime\\OneDrive\\Desktop\\onlineShop\\backend\\wwwroot\\",
+      "BasePath": "_content/backend",
+      "RelativePath": "uploads/jumperMen#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "wa0e70s00o",
+      "Integrity": "CCAD8PHeV8AhgOPrB/44vNCx4jF+iDBWm8MqT/appYk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\jumperMen.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\edime\\OneDrive\\Desktop\\onlineShop\\backend\\wwwroot\\uploads\\jumperWomen.jpg",
+      "SourceId": "backend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\edime\\OneDrive\\Desktop\\onlineShop\\backend\\wwwroot\\",
+      "BasePath": "_content/backend",
+      "RelativePath": "uploads/jumperWomen#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "b226tkw5xs",
+      "Integrity": "85wakkOQjjFDhHY7WeD2y8icXATeTzVJLppRPzefIXM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\jumperWomen.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\edime\\OneDrive\\Desktop\\onlineShop\\backend\\wwwroot\\uploads\\KnittedTopKids.jpg",
+      "SourceId": "backend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\edime\\OneDrive\\Desktop\\onlineShop\\backend\\wwwroot\\",
+      "BasePath": "_content/backend",
+      "RelativePath": "uploads/KnittedTopKids#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "fiywxaiwq2",
+      "Integrity": "SUAHnDIXRPzN0FOCX8vtJolvB5Ixd8QP1SWmgu0g5F8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\KnittedTopKids.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\edime\\OneDrive\\Desktop\\onlineShop\\backend\\wwwroot\\uploads\\knittedTopMen.jpg",
+      "SourceId": "backend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\edime\\OneDrive\\Desktop\\onlineShop\\backend\\wwwroot\\",
+      "BasePath": "_content/backend",
+      "RelativePath": "uploads/knittedTopMen#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "myn9g2hwqz",
+      "Integrity": "crYb6pBXDIiWMfKsfonO2rI9OtgxQC8RESmHpzxRwGU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\knittedTopMen.jpg"
     }
   ],
   "Endpoints": [
     {
+      "Route": "uploads/084e2ea0-37ca-462a-b5ee-3e92d3ce785c.11py790fv3.jpg",
+      "AssetFile": "C:\\Users\\edime\\OneDrive\\Desktop\\onlineShop\\backend\\wwwroot\\uploads\\084e2ea0-37ca-462a-b5ee-3e92d3ce785c.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "56209"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"y2FDdU5Qq0Ho+d25fkaLAud1CDnjkYpL7x9f6PFPdHw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 25 Sep 2025 14:51:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "11py790fv3"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/084e2ea0-37ca-462a-b5ee-3e92d3ce785c.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-y2FDdU5Qq0Ho+d25fkaLAud1CDnjkYpL7x9f6PFPdHw="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/084e2ea0-37ca-462a-b5ee-3e92d3ce785c.jpg",
+      "AssetFile": "C:\\Users\\edime\\OneDrive\\Desktop\\onlineShop\\backend\\wwwroot\\uploads\\084e2ea0-37ca-462a-b5ee-3e92d3ce785c.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "56209"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"y2FDdU5Qq0Ho+d25fkaLAud1CDnjkYpL7x9f6PFPdHw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 25 Sep 2025 14:51:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-y2FDdU5Qq0Ho+d25fkaLAud1CDnjkYpL7x9f6PFPdHw="
+        }
+      ]
+    },
+    {
       "Route": "uploads/3fb7faf9-ce5c-4ecd-8629-2ce6caceaf47.1qwd6i4jg2.jpg",
-      "AssetFile": "C:\\Users\\edime\\onlineShop\\backend\\wwwroot\\uploads\\3fb7faf9-ce5c-4ecd-8629-2ce6caceaf47.jpg",
+      "AssetFile": "C:\\Users\\edime\\OneDrive\\Desktop\\onlineShop\\backend\\wwwroot\\uploads\\3fb7faf9-ce5c-4ecd-8629-2ce6caceaf47.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -104,7 +417,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 21 Sep 2025 15:25:22 GMT"
+          "Value": "Tue, 14 Oct 2025 07:34:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -128,7 +441,7 @@
     },
     {
       "Route": "uploads/3fb7faf9-ce5c-4ecd-8629-2ce6caceaf47.jpg",
-      "AssetFile": "C:\\Users\\edime\\onlineShop\\backend\\wwwroot\\uploads\\3fb7faf9-ce5c-4ecd-8629-2ce6caceaf47.jpg",
+      "AssetFile": "C:\\Users\\edime\\OneDrive\\Desktop\\onlineShop\\backend\\wwwroot\\uploads\\3fb7faf9-ce5c-4ecd-8629-2ce6caceaf47.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -149,7 +462,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 21 Sep 2025 15:25:22 GMT"
+          "Value": "Tue, 14 Oct 2025 07:34:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -164,8 +477,254 @@
       ]
     },
     {
+      "Route": "uploads/5a274399-b2d9-41a7-b949-51bb2ca3964b-removebg-preview.fzz3ubjmfi.png",
+      "AssetFile": "C:\\Users\\edime\\OneDrive\\Desktop\\onlineShop\\backend\\wwwroot\\uploads\\5a274399-b2d9-41a7-b949-51bb2ca3964b-removebg-preview.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "68865"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FY04J/lEzfKxalzxs3TWwIKYR/c2lrM4u+Y/u9espCU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 25 Sep 2025 15:46:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "fzz3ubjmfi"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/5a274399-b2d9-41a7-b949-51bb2ca3964b-removebg-preview.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-FY04J/lEzfKxalzxs3TWwIKYR/c2lrM4u+Y/u9espCU="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/5a274399-b2d9-41a7-b949-51bb2ca3964b-removebg-preview.png",
+      "AssetFile": "C:\\Users\\edime\\OneDrive\\Desktop\\onlineShop\\backend\\wwwroot\\uploads\\5a274399-b2d9-41a7-b949-51bb2ca3964b-removebg-preview.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "68865"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FY04J/lEzfKxalzxs3TWwIKYR/c2lrM4u+Y/u9espCU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 25 Sep 2025 15:46:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-FY04J/lEzfKxalzxs3TWwIKYR/c2lrM4u+Y/u9espCU="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/5a274399-b2d9-41a7-b949-51bb2ca3964b.jpg",
+      "AssetFile": "C:\\Users\\edime\\OneDrive\\Desktop\\onlineShop\\backend\\wwwroot\\uploads\\5a274399-b2d9-41a7-b949-51bb2ca3964b.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "26041"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TtSqCnPXkWwNr+oAN/RY7zX0kRqe2yvBfnwwuzgh14M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 25 Sep 2025 15:30:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-TtSqCnPXkWwNr+oAN/RY7zX0kRqe2yvBfnwwuzgh14M="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/5a274399-b2d9-41a7-b949-51bb2ca3964b.yzsa770hft.jpg",
+      "AssetFile": "C:\\Users\\edime\\OneDrive\\Desktop\\onlineShop\\backend\\wwwroot\\uploads\\5a274399-b2d9-41a7-b949-51bb2ca3964b.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "26041"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TtSqCnPXkWwNr+oAN/RY7zX0kRqe2yvBfnwwuzgh14M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 25 Sep 2025 15:30:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "yzsa770hft"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/5a274399-b2d9-41a7-b949-51bb2ca3964b.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-TtSqCnPXkWwNr+oAN/RY7zX0kRqe2yvBfnwwuzgh14M="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/6eb002ba-9e86-4d0d-ae93-a1a8e16c0180-removebg-preview.png",
+      "AssetFile": "C:\\Users\\edime\\OneDrive\\Desktop\\onlineShop\\backend\\wwwroot\\uploads\\6eb002ba-9e86-4d0d-ae93-a1a8e16c0180-removebg-preview.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "29860"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"y/OG1+sft7gWlKUsslLHLnxk/xqM/L8yC6F694e3Vrg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 25 Sep 2025 14:55:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-y/OG1+sft7gWlKUsslLHLnxk/xqM/L8yC6F694e3Vrg="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/6eb002ba-9e86-4d0d-ae93-a1a8e16c0180-removebg-preview.v3sypalbm1.png",
+      "AssetFile": "C:\\Users\\edime\\OneDrive\\Desktop\\onlineShop\\backend\\wwwroot\\uploads\\6eb002ba-9e86-4d0d-ae93-a1a8e16c0180-removebg-preview.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "29860"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"y/OG1+sft7gWlKUsslLHLnxk/xqM/L8yC6F694e3Vrg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 25 Sep 2025 14:55:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "v3sypalbm1"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/6eb002ba-9e86-4d0d-ae93-a1a8e16c0180-removebg-preview.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-y/OG1+sft7gWlKUsslLHLnxk/xqM/L8yC6F694e3Vrg="
+        }
+      ]
+    },
+    {
       "Route": "uploads/Clothes hanger with lettering neon sign_  _ Free Vector (1).jpg",
-      "AssetFile": "C:\\Users\\edime\\onlineShop\\backend\\wwwroot\\uploads\\Clothes hanger with lettering neon sign_  _ Free Vector (1).jpg",
+      "AssetFile": "C:\\Users\\edime\\OneDrive\\Desktop\\onlineShop\\backend\\wwwroot\\uploads\\Clothes hanger with lettering neon sign_  _ Free Vector (1).jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -186,7 +745,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 21 Sep 2025 15:00:13 GMT"
+          "Value": "Thu, 25 Sep 2025 15:10:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -202,7 +761,7 @@
     },
     {
       "Route": "uploads/Clothes hanger with lettering neon sign_  _ Free Vector (1).xkurzpd5oi.jpg",
-      "AssetFile": "C:\\Users\\edime\\onlineShop\\backend\\wwwroot\\uploads\\Clothes hanger with lettering neon sign_  _ Free Vector (1).jpg",
+      "AssetFile": "C:\\Users\\edime\\OneDrive\\Desktop\\onlineShop\\backend\\wwwroot\\uploads\\Clothes hanger with lettering neon sign_  _ Free Vector (1).jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -223,7 +782,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 21 Sep 2025 15:00:13 GMT"
+          "Value": "Thu, 25 Sep 2025 15:10:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -246,8 +805,254 @@
       ]
     },
     {
+      "Route": "uploads/Dress.jpg",
+      "AssetFile": "C:\\Users\\edime\\OneDrive\\Desktop\\onlineShop\\backend\\wwwroot\\uploads\\Dress.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10155"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8ZMzuhiMV+z1mVW7NXYGMf8BlI6Mpn/HgX6I5faubic=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 25 Sep 2025 15:43:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-8ZMzuhiMV+z1mVW7NXYGMf8BlI6Mpn/HgX6I5faubic="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/Dress.r54cwnf0tb.jpg",
+      "AssetFile": "C:\\Users\\edime\\OneDrive\\Desktop\\onlineShop\\backend\\wwwroot\\uploads\\Dress.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10155"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8ZMzuhiMV+z1mVW7NXYGMf8BlI6Mpn/HgX6I5faubic=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 25 Sep 2025 15:43:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "r54cwnf0tb"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/Dress.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-8ZMzuhiMV+z1mVW7NXYGMf8BlI6Mpn/HgX6I5faubic="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/HoodieUnisex.jpg",
+      "AssetFile": "C:\\Users\\edime\\OneDrive\\Desktop\\onlineShop\\backend\\wwwroot\\uploads\\HoodieUnisex.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7600"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"a2keCOLN2Ot8Jyb+3PQqEvL54jq0UKg7NWQiiDg8rAY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 25 Sep 2025 15:42:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-a2keCOLN2Ot8Jyb+3PQqEvL54jq0UKg7NWQiiDg8rAY="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/HoodieUnisex.n565vjh8si.jpg",
+      "AssetFile": "C:\\Users\\edime\\OneDrive\\Desktop\\onlineShop\\backend\\wwwroot\\uploads\\HoodieUnisex.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7600"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"a2keCOLN2Ot8Jyb+3PQqEvL54jq0UKg7NWQiiDg8rAY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 25 Sep 2025 15:42:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "n565vjh8si"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/HoodieUnisex.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-a2keCOLN2Ot8Jyb+3PQqEvL54jq0UKg7NWQiiDg8rAY="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/JeanesMen.jpg",
+      "AssetFile": "C:\\Users\\edime\\OneDrive\\Desktop\\onlineShop\\backend\\wwwroot\\uploads\\JeanesMen.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "15081"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"X52BJ5ptZ7AdO32uwf5PebLXaTP21gtAWAGG7Q50+K0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 25 Sep 2025 15:43:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-X52BJ5ptZ7AdO32uwf5PebLXaTP21gtAWAGG7Q50+K0="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/JeanesMen.v4n59k2kvy.jpg",
+      "AssetFile": "C:\\Users\\edime\\OneDrive\\Desktop\\onlineShop\\backend\\wwwroot\\uploads\\JeanesMen.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "15081"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"X52BJ5ptZ7AdO32uwf5PebLXaTP21gtAWAGG7Q50+K0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 25 Sep 2025 15:43:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "v4n59k2kvy"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/JeanesMen.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-X52BJ5ptZ7AdO32uwf5PebLXaTP21gtAWAGG7Q50+K0="
+        }
+      ]
+    },
+    {
       "Route": "uploads/Johannes 14,6_ Jesus sagte zu ihm_ »Ich bin der….i2qla6spce.jpg",
-      "AssetFile": "C:\\Users\\edime\\onlineShop\\backend\\wwwroot\\uploads\\Johannes 14,6_ Jesus sagte zu ihm_ »Ich bin der….jpg",
+      "AssetFile": "C:\\Users\\edime\\OneDrive\\Desktop\\onlineShop\\backend\\wwwroot\\uploads\\Johannes 14,6_ Jesus sagte zu ihm_ »Ich bin der….jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -268,7 +1073,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 21 Sep 2025 15:24:15 GMT"
+          "Value": "Thu, 25 Sep 2025 15:57:03 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -292,7 +1097,7 @@
     },
     {
       "Route": "uploads/Johannes 14,6_ Jesus sagte zu ihm_ »Ich bin der….jpg",
-      "AssetFile": "C:\\Users\\edime\\onlineShop\\backend\\wwwroot\\uploads\\Johannes 14,6_ Jesus sagte zu ihm_ »Ich bin der….jpg",
+      "AssetFile": "C:\\Users\\edime\\OneDrive\\Desktop\\onlineShop\\backend\\wwwroot\\uploads\\Johannes 14,6_ Jesus sagte zu ihm_ »Ich bin der….jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -313,7 +1118,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 21 Sep 2025 15:24:15 GMT"
+          "Value": "Thu, 25 Sep 2025 15:57:03 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -324,6 +1129,334 @@
         {
           "Name": "integrity",
           "Value": "sha256-xmYiFG7C3HyRNncvGV116KiadIJbBI0Rve4DoMr4ksA="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/jumperMen.jpg",
+      "AssetFile": "C:\\Users\\edime\\OneDrive\\Desktop\\onlineShop\\backend\\wwwroot\\uploads\\jumperMen.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "16087"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CCAD8PHeV8AhgOPrB/44vNCx4jF+iDBWm8MqT/appYk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 25 Sep 2025 15:41:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-CCAD8PHeV8AhgOPrB/44vNCx4jF+iDBWm8MqT/appYk="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/jumperMen.wa0e70s00o.jpg",
+      "AssetFile": "C:\\Users\\edime\\OneDrive\\Desktop\\onlineShop\\backend\\wwwroot\\uploads\\jumperMen.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "16087"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CCAD8PHeV8AhgOPrB/44vNCx4jF+iDBWm8MqT/appYk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 25 Sep 2025 15:41:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "wa0e70s00o"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/jumperMen.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-CCAD8PHeV8AhgOPrB/44vNCx4jF+iDBWm8MqT/appYk="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/jumperWomen.b226tkw5xs.jpg",
+      "AssetFile": "C:\\Users\\edime\\OneDrive\\Desktop\\onlineShop\\backend\\wwwroot\\uploads\\jumperWomen.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9936"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"85wakkOQjjFDhHY7WeD2y8icXATeTzVJLppRPzefIXM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 25 Sep 2025 15:44:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "b226tkw5xs"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/jumperWomen.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-85wakkOQjjFDhHY7WeD2y8icXATeTzVJLppRPzefIXM="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/jumperWomen.jpg",
+      "AssetFile": "C:\\Users\\edime\\OneDrive\\Desktop\\onlineShop\\backend\\wwwroot\\uploads\\jumperWomen.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9936"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"85wakkOQjjFDhHY7WeD2y8icXATeTzVJLppRPzefIXM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 25 Sep 2025 15:44:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-85wakkOQjjFDhHY7WeD2y8icXATeTzVJLppRPzefIXM="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/KnittedTopKids.fiywxaiwq2.jpg",
+      "AssetFile": "C:\\Users\\edime\\OneDrive\\Desktop\\onlineShop\\backend\\wwwroot\\uploads\\KnittedTopKids.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "11952"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SUAHnDIXRPzN0FOCX8vtJolvB5Ixd8QP1SWmgu0g5F8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 25 Sep 2025 15:45:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "fiywxaiwq2"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/KnittedTopKids.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-SUAHnDIXRPzN0FOCX8vtJolvB5Ixd8QP1SWmgu0g5F8="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/KnittedTopKids.jpg",
+      "AssetFile": "C:\\Users\\edime\\OneDrive\\Desktop\\onlineShop\\backend\\wwwroot\\uploads\\KnittedTopKids.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "11952"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SUAHnDIXRPzN0FOCX8vtJolvB5Ixd8QP1SWmgu0g5F8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 25 Sep 2025 15:45:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-SUAHnDIXRPzN0FOCX8vtJolvB5Ixd8QP1SWmgu0g5F8="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/knittedTopMen.jpg",
+      "AssetFile": "C:\\Users\\edime\\OneDrive\\Desktop\\onlineShop\\backend\\wwwroot\\uploads\\knittedTopMen.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7447"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"crYb6pBXDIiWMfKsfonO2rI9OtgxQC8RESmHpzxRwGU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 25 Sep 2025 15:42:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-crYb6pBXDIiWMfKsfonO2rI9OtgxQC8RESmHpzxRwGU="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/knittedTopMen.myn9g2hwqz.jpg",
+      "AssetFile": "C:\\Users\\edime\\OneDrive\\Desktop\\onlineShop\\backend\\wwwroot\\uploads\\knittedTopMen.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7447"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"crYb6pBXDIiWMfKsfonO2rI9OtgxQC8RESmHpzxRwGU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 25 Sep 2025 15:42:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "myn9g2hwqz"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/knittedTopMen.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-crYb6pBXDIiWMfKsfonO2rI9OtgxQC8RESmHpzxRwGU="
         }
       ]
     }

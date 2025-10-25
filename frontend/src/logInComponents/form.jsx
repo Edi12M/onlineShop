@@ -6,8 +6,7 @@ import { useNavigate } from "react-router-dom";
 function Form() {
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
-  const [role, setRole] = useState("User"); // default for signup
-
+  const [role, setRole] = useState("User");
   const navigate = useNavigate();
 
   // Login handler
@@ -18,14 +17,8 @@ function Form() {
         username,
         password,
       });
-
       alert(response.data.message);
-
-      if (response.data.role === "Admin") {
-        navigate("/admin-dashboard");
-      } else {
-        navigate("/user-dashboard");
-      }
+      navigate(response.data.role === "Admin" ? "/admin-dashboard" : "/user-dashboard");
     } catch (error) {
       alert(error.response?.data?.message || "Login failed");
     }
@@ -47,42 +40,60 @@ function Form() {
   };
 
   return (
-    <div className="logIn-panel">
+    <div
+      className="card shadow-lg border-0 p-4"
+      style={{
+        width: "400px",
+        background: "rgba(255, 255, 255, 0.65)", // lower opacity
+        backdropFilter: "blur(10px)",            // frosted glass effect
+        borderRadius: "15px",
+        animation: "fadeIn 0.6s ease-in-out",    // optional fade-in
+      }}
+    >
+      <h3 className="text-center mb-4 fw-bold text-dark">Welcome Back!</h3>
+
       <form>
-        <div>
-          <label>Username:</label>
+        <div className="mb-3">
+          <label className="form-label fw-semibold">Username</label>
           <input
             type="text"
+            className="form-control"
+            placeholder="Enter your username"
             value={username}
             onChange={(e) => setUsername(e.target.value)}
             required
           />
         </div>
 
-        <div>
-          <label>Password:</label>
+        <div className="mb-3">
+          <label className="form-label fw-semibold">Password</label>
           <input
             type="password"
+            className="form-control"
+            placeholder="Enter your password"
             value={password}
             onChange={(e) => setPassword(e.target.value)}
             required
           />
         </div>
 
-        {/* Role dropdown only affects signup */}
-        <div className="dropDown">
-          <label>Role (for signup):</label>
-          <select value={role} onChange={(e) => setRole(e.target.value)}>
+        <div className="mb-4">
+          <label className="form-label fw-semibold">Role (for signup)</label>
+          <select
+            className="form-select"
+            value={role}
+            onChange={(e) => setRole(e.target.value)}
+          >
             <option value="User">User</option>
             <option value="Admin">Admin</option>
           </select>
         </div>
 
-        <div className="buttons">
-          <Buttons type="button" onSelect={handleLogin}>
+        <div className="d-flex justify-content-between">
+          <Buttons type="button" variant="primary" onSelect={handleLogin}>
             Log In
           </Buttons>
-          <Buttons type="button" onSelect={handleSignup}>
+          <Buttons type="button" variant="outline-dark" onSelect={handleSignup}>
             Sign Up
           </Buttons>
         </div>

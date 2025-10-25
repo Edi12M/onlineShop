@@ -1,7 +1,6 @@
 import { useEffect } from "react";
 
 function Modal({ children, onClose }) {
-  // Close on ESC key
   useEffect(() => {
     const handleEsc = (e) => {
       if (e.key === "Escape") onClose();
@@ -11,13 +10,27 @@ function Modal({ children, onClose }) {
   }, [onClose]);
 
   return (
-    <div className="modal-backdrop" onClick={onClose}>
-      <div 
-        className="modal-content"
-        onClick={(e) => e.stopPropagation()} // prevent backdrop click from closing
+    <div
+      className="modal fade show"
+      style={{
+        display: "block",
+        backgroundColor: "rgba(0, 0, 0, 0.7)", // darker backdrop for better contrast
+        backdropFilter: "blur(3px)", // soft blur for a premium look
+        transition: "opacity 0.3s ease-in-out",
+      }}
+      onClick={onClose}
+    >
+      <div
+        className="modal-dialog modal-dialog-centered"
+        onClick={(e) => e.stopPropagation()}
       >
-        <button className="modal-close" onClick={onClose}>✖</button>
-        {children}
+        <div className="modal-content border-0 shadow-lg rounded-3">
+          <div className="modal-header border-0 pb-0">
+            <h5 className="modal-title fw-semibold text-dark">Add Product</h5>
+            <button type="button" className="btn-close" onClick={onClose}></button>
+          </div>
+          <div className="modal-body">{children}</div>
+        </div>
       </div>
     </div>
   );

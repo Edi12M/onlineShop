@@ -1,4 +1,5 @@
 import "./App.css";
+import "./bootstrap/css/styles.css";
 import LogIn from "./logInComponents/login";
 import AdminDashboard from "./adminDashboardComponents/adminDashboard";
 import UserDashboard from "./userDashboardComponents/userDashboard";
@@ -7,27 +8,24 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
-    <div className="app-container">
-      <Router>
-        <div className="mainDiv">
-          <Routes>
-            {/* Login page */}
-            <Route path="/" element={<LogIn />} />
+    <Router>
+      <Routes>
+        {/* Login page */}
+        <Route path="/" element={<LogIn />} />
 
-            {/* Admin dashboard */}
-            <Route path="/admin-dashboard" element={<AdminDashboard />} />
+        {/* Admin dashboard */}
+        <Route path="/admin-dashboard" element={<AdminDashboard />} />
 
-            {/* User dashboard */}
-            <Route path="/user-dashboard" element={<UserDashboard />} />
+        {/* User dashboard */}
+        <Route path="/user-dashboard" element={<UserDashboard />} />
 
-            {/* Product detail page */}
-            <Route path="/product/:id" element={<ProductDetail />} />
-            {/* Add product page */}
-            <Route path="/add-product" element={<AdminDashboard />} />
-          </Routes>
-        </div>
-      </Router>
-    </div>
+        {/* Product detail page */}
+        <Route path="/product/:id" element={<ProductDetail />} />
+
+        {/* Add product page */}
+        <Route path="/add-product" element={<AdminDashboard />} />
+      </Routes>
+    </Router>
   );
 }
 

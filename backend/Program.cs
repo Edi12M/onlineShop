@@ -4,7 +4,7 @@ using MyApi.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Database connection (SQL Server example)
+// Database connection (SQL Server  )
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 

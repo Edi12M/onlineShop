@@ -1,12 +1,13 @@
-function Buttons({ children, type = "button", onSelect }) {
-    return (
-        <button 
-            type={type} 
-            className="logIn-buttons" 
-            onClick={onSelect}>
-            {children}
-        </button>
-    );
+function Buttons({ children, type = "button", onSelect, variant = "primary" }) {
+  return (
+    <button
+      type={type}
+      className={`btn btn-${variant} px-4 py-2 fw-semibold`}
+      onClick={onSelect}
+    >
+      {children}
+    </button>
+  );
 }
 
 export default Buttons;
