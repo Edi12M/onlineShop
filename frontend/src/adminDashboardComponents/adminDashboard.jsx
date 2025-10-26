@@ -1,8 +1,10 @@
 import { useState, useEffect } from "react";
 import axios from "axios";
-import AdminUpload from "./AdminUpload";
+import AdminUpload from "../adminDashboardComponents/adminUpload.jsx";
 import Modal from "../adminDashboardComponents/Modal";
 import Logo from "../commonComponents/logo";
+import Buttons from "../logInComponents/Buttons.jsx";
+import { useNavigate } from "react-router-dom";
 
 function AdminDashboard() {
   const [products, setProducts] = useState([]);
@@ -44,6 +46,9 @@ function AdminDashboard() {
     ? products.filter((p) => p.productId.toString() === searchId)
     : products;
 
+  
+  const navigate = useNavigate();
+    
   return (
     <>
       {/* Admin Navbar */}
@@ -51,6 +56,15 @@ function AdminDashboard() {
         <div className="container px-4 px-lg-5">
           <Logo />
           <h3 className="text-white ms-3 mb-0">Admin Dashboard</h3>
+          <Buttons
+          variant="btn btn-outline-primary"
+          onSelect={() => {
+            localStorage.removeItem("token");// remove JWT
+            navigate("/"); // redirect to home/login
+          }}
+        >
+          SignOut
+        </Buttons>
           <button
             className="navbar-toggler"
             type="button"
@@ -86,6 +100,7 @@ function AdminDashboard() {
                 Clear
               </button>
             </div>
+            
 
             <button
               className="btn btn-dark"

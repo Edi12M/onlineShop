@@ -18,7 +18,7 @@ namespace MyApi.Controllers
 
         // POST: api/products/upload
         [HttpPost("upload")]
-        //   [Authorize(Roles = "Admin")] 
+        [Authorize(Roles = "Admin")] 
         public async Task<IActionResult> UploadProduct(
             [FromForm] IFormFile image,
             [FromForm] string name,
@@ -77,7 +77,7 @@ namespace MyApi.Controllers
 
         // DELETE: api/products/{id}  <-- Only admin should call this
         [HttpDelete("{id}")]
-        // [Authorize(Roles = "Admin")]
+         [Authorize(Roles = "Admin")]
         public async Task<IActionResult> DeleteProduct(int id)
         {
             var product = _db.Products.FirstOrDefault(p => p.ProductId == id);
@@ -91,7 +91,7 @@ namespace MyApi.Controllers
         }
 
         // PUT: api/products/{id}
-// [Authorize(Roles = "Admin")]
+ [Authorize(Roles = "Admin")]
 [HttpPut("{id}")]
 public async Task<IActionResult> UpdateProduct(
     int id,

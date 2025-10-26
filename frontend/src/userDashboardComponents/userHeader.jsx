@@ -87,6 +87,15 @@ function UserHeader() {
                 {cartCount}
               </span>
             </Buttons>
+            <Buttons
+          variant="btn btn-outline-primary"
+          onSelect={() => {
+            localStorage.removeItem("token");// remove JWT
+            navigate("/"); // redirect to home/login
+          }}
+        >
+          SignOut
+        </Buttons>
           </div>
         </div>
       </div>

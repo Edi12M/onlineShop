@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "rdQDSbrY//lxhUPg/JGyG9F64gQrQjScQTd63xDVLZU=",
+  "Hash": "7XqYiCNx2YIQ54hZAoWSgeGn3P3yU/nTJohFWcKv4d0=",
   "Source": "backend",
   "BasePath": "_content/backend",
   "Mode": "Default",
@@ -185,6 +185,27 @@
       "OriginalItemSpec": "wwwroot\\uploads\\HoodieUnisex.jpg"
     },
     {
+      "Identity": "C:\\Users\\edime\\OneDrive\\Desktop\\onlineShop\\backend\\wwwroot\\uploads\\image.jpg",
+      "SourceId": "backend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\edime\\OneDrive\\Desktop\\onlineShop\\backend\\wwwroot\\",
+      "BasePath": "_content/backend",
+      "RelativePath": "uploads/image#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "sx6y9ozx6m",
+      "Integrity": "YC+e3Ewiyhjr9IAwTYbKLItdGLiC/CkxCP88JfSiQe4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\image.jpg"
+    },
+    {
       "Identity": "C:\\Users\\edime\\OneDrive\\Desktop\\onlineShop\\backend\\wwwroot\\uploads\\JeanesMen.jpg",
       "SourceId": "backend",
       "SourceType": "Discovered",
@@ -309,6 +330,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\uploads\\knittedTopMen.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\edime\\OneDrive\\Desktop\\onlineShop\\backend\\wwwroot\\uploads\\Teen Boys Casual Minimalist Letter Grafisch….jpg",
+      "SourceId": "backend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\edime\\OneDrive\\Desktop\\onlineShop\\backend\\wwwroot\\",
+      "BasePath": "_content/backend",
+      "RelativePath": "uploads/Teen Boys Casual Minimalist Letter Grafisch…#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "oppq8w2baw",
+      "Integrity": "VJN2Wh6OoiHssAUt+RPd2x0hfYPaFSB0e9ZOJ56MOKk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\Teen Boys Casual Minimalist Letter Grafisch….jpg"
     }
   ],
   "Endpoints": [
@@ -969,6 +1011,88 @@
       ]
     },
     {
+      "Route": "uploads/image.jpg",
+      "AssetFile": "C:\\Users\\edime\\OneDrive\\Desktop\\onlineShop\\backend\\wwwroot\\uploads\\image.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "62024"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"YC+e3Ewiyhjr9IAwTYbKLItdGLiC/CkxCP88JfSiQe4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 25 Oct 2025 13:28:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-YC+e3Ewiyhjr9IAwTYbKLItdGLiC/CkxCP88JfSiQe4="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/image.sx6y9ozx6m.jpg",
+      "AssetFile": "C:\\Users\\edime\\OneDrive\\Desktop\\onlineShop\\backend\\wwwroot\\uploads\\image.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "62024"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"YC+e3Ewiyhjr9IAwTYbKLItdGLiC/CkxCP88JfSiQe4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 25 Oct 2025 13:28:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "sx6y9ozx6m"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/image.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-YC+e3Ewiyhjr9IAwTYbKLItdGLiC/CkxCP88JfSiQe4="
+        }
+      ]
+    },
+    {
       "Route": "uploads/JeanesMen.jpg",
       "AssetFile": "C:\\Users\\edime\\OneDrive\\Desktop\\onlineShop\\backend\\wwwroot\\uploads\\JeanesMen.jpg",
       "Selectors": [],
@@ -1457,6 +1581,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-crYb6pBXDIiWMfKsfonO2rI9OtgxQC8RESmHpzxRwGU="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/Teen Boys Casual Minimalist Letter Grafisch….jpg",
+      "AssetFile": "C:\\Users\\edime\\OneDrive\\Desktop\\onlineShop\\backend\\wwwroot\\uploads\\Teen Boys Casual Minimalist Letter Grafisch….jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "113147"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"VJN2Wh6OoiHssAUt+RPd2x0hfYPaFSB0e9ZOJ56MOKk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 25 Oct 2025 17:18:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-VJN2Wh6OoiHssAUt+RPd2x0hfYPaFSB0e9ZOJ56MOKk="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/Teen Boys Casual Minimalist Letter Grafisch….oppq8w2baw.jpg",
+      "AssetFile": "C:\\Users\\edime\\OneDrive\\Desktop\\onlineShop\\backend\\wwwroot\\uploads\\Teen Boys Casual Minimalist Letter Grafisch….jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "113147"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"VJN2Wh6OoiHssAUt+RPd2x0hfYPaFSB0e9ZOJ56MOKk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 25 Oct 2025 17:18:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "oppq8w2baw"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/Teen Boys Casual Minimalist Letter Grafisch….jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-VJN2Wh6OoiHssAUt+RPd2x0hfYPaFSB0e9ZOJ56MOKk="
         }
       ]
     }

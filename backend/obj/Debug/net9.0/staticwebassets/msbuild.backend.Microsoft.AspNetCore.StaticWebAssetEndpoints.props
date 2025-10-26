@@ -96,6 +96,18 @@
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"n565vjh8si"},{"Name":"integrity","Value":"sha256-a2keCOLN2Ot8Jyb\u002B3PQqEvL54jq0UKg7NWQiiDg8rAY="},{"Name":"label","Value":"_content/backend/uploads/HoodieUnisex.jpg"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"7600"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022a2keCOLN2Ot8Jyb\u002B3PQqEvL54jq0UKg7NWQiiDg8rAY=\u0022"},{"Name":"Last-Modified","Value":"Thu, 25 Sep 2025 15:42:38 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/backend/uploads/image.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\image.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-YC\u002Be3Ewiyhjr9IAwTYbKLItdGLiC/CkxCP88JfSiQe4="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"62024"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022YC\u002Be3Ewiyhjr9IAwTYbKLItdGLiC/CkxCP88JfSiQe4=\u0022"},{"Name":"Last-Modified","Value":"Sat, 25 Oct 2025 13:28:36 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/backend/uploads/image.sx6y9ozx6m.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\image.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"sx6y9ozx6m"},{"Name":"integrity","Value":"sha256-YC\u002Be3Ewiyhjr9IAwTYbKLItdGLiC/CkxCP88JfSiQe4="},{"Name":"label","Value":"_content/backend/uploads/image.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"62024"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022YC\u002Be3Ewiyhjr9IAwTYbKLItdGLiC/CkxCP88JfSiQe4=\u0022"},{"Name":"Last-Modified","Value":"Sat, 25 Oct 2025 13:28:36 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/backend/uploads/JeanesMen.jpg">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\JeanesMen.jpg'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
@@ -167,6 +179,18 @@
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"myn9g2hwqz"},{"Name":"integrity","Value":"sha256-crYb6pBXDIiWMfKsfonO2rI9OtgxQC8RESmHpzxRwGU="},{"Name":"label","Value":"_content/backend/uploads/knittedTopMen.jpg"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"7447"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022crYb6pBXDIiWMfKsfonO2rI9OtgxQC8RESmHpzxRwGU=\u0022"},{"Name":"Last-Modified","Value":"Thu, 25 Sep 2025 15:42:16 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/backend/uploads/Teen Boys Casual Minimalist Letter Grafisch….jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\Teen Boys Casual Minimalist Letter Grafisch….jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-VJN2Wh6OoiHssAUt\u002BRPd2x0hfYPaFSB0e9ZOJ56MOKk="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"113147"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022VJN2Wh6OoiHssAUt\u002BRPd2x0hfYPaFSB0e9ZOJ56MOKk=\u0022"},{"Name":"Last-Modified","Value":"Sat, 25 Oct 2025 17:18:17 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/backend/uploads/Teen Boys Casual Minimalist Letter Grafisch….oppq8w2baw.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\Teen Boys Casual Minimalist Letter Grafisch….jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"oppq8w2baw"},{"Name":"integrity","Value":"sha256-VJN2Wh6OoiHssAUt\u002BRPd2x0hfYPaFSB0e9ZOJ56MOKk="},{"Name":"label","Value":"_content/backend/uploads/Teen Boys Casual Minimalist Letter Grafisch\u2026.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"113147"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022VJN2Wh6OoiHssAUt\u002BRPd2x0hfYPaFSB0e9ZOJ56MOKk=\u0022"},{"Name":"Last-Modified","Value":"Sat, 25 Oct 2025 17:18:17 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
   </ItemGroup>
 </Project>
