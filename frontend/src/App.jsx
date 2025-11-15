@@ -1,35 +1,77 @@
 import "./bootstrap/css/styles.css";
-import "../src/App.css"
+import "../src/App.css";
 import LogIn from "./logInComponents/login";
 import AdminDashboard from "./adminDashboardComponents/adminDashboard";
 import UserDashboard from "./userDashboardComponents/userDashboard";
-import ProductDetail from "./userDashboardComponents/productDetails"; // new
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import ProductDetail from "./userDashboardComponents/productDetails";
+import Cart from "./userDashboardComponents/cart";
 import About from "./userDashboardComponents/about";
+import ProtectedRoute from "./components/ProtectedRoute";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
     <Router>
       <Routes>
-        {/* Login page */}
         <Route path="/" element={<LogIn />} />
 
-        {/* Admin dashboard */}
-        <Route path="/admin-dashboard" element={<AdminDashboard />} />
+        <Route
+          path="/admin-dashboard"
+          element={
+            <ProtectedRoute requiredRole="Admin">
+              <AdminDashboard />
+            </ProtectedRoute>
+          }
+        />
+        <Route
+          path="/add-product"
+          element={
+            <ProtectedRoute requiredRole="Admin">
+              <AdminDashboard />
+            </ProtectedRoute>
+          }
+        />
 
-        {/* User dashboard */}
-        <Route path="/user-dashboard" element={<UserDashboard />} />
-
-        {/* Product detail page */}
-        <Route path="/product/:id" element={<ProductDetail />} />
-
-        {/* Add product page */}
-        <Route path="/add-product" element={<AdminDashboard />} />
-        {/* Add about page */}
-        <Route path="/about" element={<About />} />
-        {/* Shop with category filter */}
-        <Route path="/shop" element={<UserDashboard />} />
-
+        <Route
+          path="/user-dashboard"
+          element={
+            <ProtectedRoute>
+              <UserDashboard />
+            </ProtectedRoute>
+          }
+        />
+        <Route
+          path="/shop"
+          element={
+            <ProtectedRoute>
+              <UserDashboard />
+            </ProtectedRoute>
+          }
+        />
+        <Route
+          path="/product/:id"
+          element={
+            <ProtectedRoute>
+              <ProductDetail />
+            </ProtectedRoute>
+          }
+        />
+        <Route
+          path="/cart"
+          element={
+            <ProtectedRoute>
+              <Cart />
+            </ProtectedRoute>
+          }
+        />
+        <Route
+          path="/about"
+          element={
+            <ProtectedRoute>
+              <About />
+            </ProtectedRoute>
+          }
+        />
       </Routes>
     </Router>
   );
