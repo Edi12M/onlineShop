@@ -1,15 +1,14 @@
 import Buttons from "../logInComponents/Buttons";
 import { useNavigate } from "react-router-dom";
-import { useState, useEffect } from "react";
+import { useState } from "react";
+import { useCart } from "../context/CartContext";
+import { useAuth } from "../context/AuthContext";
 
 function UserHeader() {
   const navigate = useNavigate();
-  const [cartCount, setCartCount] = useState(0);
+  const { cartCount } = useCart();
+  const { logout } = useAuth();
   const [searchQuery, setSearchQuery] = useState("");
-
-  useEffect(() => {
-    setCartCount(2); // temporary cart count
-  }, []);
 
   const navItems = [
     { label: "Home", path: "/user-dashboard" },
@@ -26,10 +25,11 @@ function UserHeader() {
   };
 
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light shadow-sm">
+    <nav className="navbar navbar-expand-lg navbar-light bg-white shadow-sm sticky-top">
       <div className="container px-4 px-lg-5">
         <a
           className="navbar-brand fw-bold fs-4"
+          style={{ cursor: "pointer" }}
           onClick={() => navigate("/user-dashboard")}
         >
           MyShop
@@ -60,42 +60,49 @@ function UserHeader() {
               </Buttons>
             ))}
 
-            {/* Search input */}
-            <input
-              type="text"
-              className="form-control ms-3"
-              placeholder="Search products..."
-              style={{ maxWidth: "200px" }}
-              value={searchQuery}
-              onChange={(e) => setSearchQuery(e.target.value)}
-              onKeyDown={(e) => {
-                if (e.key === "Enter") {
-                  e.preventDefault();
-                  handleSearch();
-                }
-              }}
-            />
+            <div className="input-group ms-3" style={{ maxWidth: "220px" }}>
+              <input
+                type="text"
+                className="form-control"
+                placeholder="Search products..."
+                value={searchQuery}
+                onChange={(e) => setSearchQuery(e.target.value)}
+                onKeyDown={(e) => {
+                  if (e.key === "Enter") {
+                    e.preventDefault();
+                    handleSearch();
+                  }
+                }}
+              />
+              <button className="btn btn-outline-dark" onClick={handleSearch}>
+                <i className="bi bi-search"></i>
+              </button>
+            </div>
 
             <Buttons
-              className="cart-btn-custom ms-3"
+              className="cart-btn-custom ms-2"
               variant="outline-dark"
               onSelect={() => navigate("/cart")}
             >
               <i className="bi-cart-fill me-1"></i>
               Cart
-              <span className="badge bg-dark text-white ms-1 rounded-pill">
-                {cartCount}
-              </span>
+              {cartCount > 0 && (
+                <span className="badge bg-dark text-white ms-1 rounded-pill">
+                  {cartCount}
+                </span>
+              )}
             </Buttons>
+
             <Buttons
-          variant="btn btn-outline-primary"
-          onSelect={() => {
-            localStorage.removeItem("token");// remove JWT
-            navigate("/"); // redirect to home/login
-          }}
-        >
-          SignOut
-        </Buttons>
+              variant="outline-danger"
+              className="ms-2"
+              onSelect={() => {
+                logout();
+                navigate("/");
+              }}
+            >
+              <i className="bi bi-box-arrow-right me-1"></i>Sign Out
+            </Buttons>
           </div>
         </div>
       </div>
