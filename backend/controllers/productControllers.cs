@@ -16,7 +16,6 @@ namespace MyApi.Controllers
             _db = db;
         }
 
-        // POST: api/products/upload
         [HttpPost("upload")]
         [Authorize(Roles = "Admin")] 
         public async Task<IActionResult> UploadProduct(
@@ -56,7 +55,6 @@ namespace MyApi.Controllers
             return Ok(product);
         }
 
-        // GET: api/products
         [HttpGet]
         public IActionResult GetProducts()
         {
@@ -64,7 +62,6 @@ namespace MyApi.Controllers
             return Ok(products);
         }
 
-        // GET: api/products/{id}
         [HttpGet("{id}")]
         public IActionResult GetProduct(int id)
         {
@@ -75,7 +72,6 @@ namespace MyApi.Controllers
             return Ok(product);
         }
 
-        // DELETE: api/products/{id}  <-- Only admin should call this
         [HttpDelete("{id}")]
          [Authorize(Roles = "Admin")]
         public async Task<IActionResult> DeleteProduct(int id)
@@ -90,8 +86,7 @@ namespace MyApi.Controllers
             return Ok(new { message = "Product deleted successfully." });
         }
 
-        // PUT: api/products/{id}
- [Authorize(Roles = "Admin")]
+        [Authorize(Roles = "Admin")]
 [HttpPut("{id}")]
 public async Task<IActionResult> UpdateProduct(
     int id,
