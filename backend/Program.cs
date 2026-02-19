@@ -89,6 +89,12 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseCors();
+
+var webRoot = app.Environment.WebRootPath ?? Path.Combine(app.Environment.ContentRootPath, "wwwroot");
+var uploadsDir = Path.Combine(webRoot, "uploads");
+if (!Directory.Exists(uploadsDir))
+    Directory.CreateDirectory(uploadsDir);
+
 app.UseStaticFiles();
 
 app.UseAuthentication();
