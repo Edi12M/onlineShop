@@ -33,7 +33,8 @@ namespace MyApi.Controllers
             if (!Directory.Exists(uploadPath))
                 Directory.CreateDirectory(uploadPath);
 
-            var filePath = Path.Combine(uploadPath, image.FileName);
+            var safeFileName = Guid.NewGuid() + Path.GetExtension(image.FileName);
+            var filePath = Path.Combine(uploadPath, safeFileName);
             using (var stream = new FileStream(filePath, FileMode.Create))
             {
                 await image.CopyToAsync(stream);
@@ -46,7 +47,7 @@ namespace MyApi.Controllers
                 Description = description,
                 Category = category,
                 Stock = stock,
-                ImageUrl = "/uploads/" + image.FileName
+                ImageUrl = "/uploads/" + safeFileName
             };
 
             _db.Products.Add(product);
@@ -113,13 +114,14 @@ public async Task<IActionResult> UpdateProduct(
         if (!Directory.Exists(uploadPath))
             Directory.CreateDirectory(uploadPath);
 
-        var filePath = Path.Combine(uploadPath, image.FileName);
+        var safeFileName = Guid.NewGuid() + Path.GetExtension(image.FileName);
+        var filePath = Path.Combine(uploadPath, safeFileName);
         using (var stream = new FileStream(filePath, FileMode.Create))
         {
             await image.CopyToAsync(stream);
         }
 
-        product.ImageUrl = "/uploads/" + image.FileName;
+        product.ImageUrl = "/uploads/" + safeFileName;
     }
 
     await _db.SaveChangesAsync();
